@@ -2,7 +2,7 @@
 #define T int
 #include"avl_tree.h"
 #undef T
-Comp comp(const int* lhs,const int* rhs){
+bool comp(const int* lhs,const int* rhs){
     return *lhs>*rhs;
 }
 int main(){
